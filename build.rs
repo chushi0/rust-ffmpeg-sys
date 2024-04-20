@@ -1195,7 +1195,7 @@ fn main() {
         })
         .prepend_enum_name(false)
         .derive_eq(true)
-        .size_t_is_usize(true)
+        .size_t_is_usize(false)
         .parse_callbacks(Box::new(Callbacks));
 
     // The input headers we would like to generate
